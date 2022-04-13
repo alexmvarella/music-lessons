@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/lessons.css">
+    <title>Lesson Schedule Form</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Music Lessons</h1>
+            <ul class="nav-links">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="registerForm.html">Sign Up</a></li>
+                <li class="nav-item"><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="formContainer">
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="instrument">Instrument</label>
+            <select id="teacher" name="teacher">
+                <option value="Guitar">Guitar</option>
+                <option value="Vocals">Vocals</option>
+                <option value="Bass">Bass</option>
+                <option value="Piano">Piano</option>
+                <option value="Drums">Drums</option>
+            </select>
+            <label for="skillLevel">What is your current skill level?</label>
+            <select id="teacher" name="teacher">
+                <option value="Beginner">Beginner</option>
+                <option value="Novice">Novice</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+                <input type="submit" value="Submit">
+                <script src="javascript/app.js"></script>
+</body>
+
+</html>

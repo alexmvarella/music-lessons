@@ -1,0 +1,698 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    /* background: linear-gradient(white, black, white, black); */
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: none;
+    width: auto;
+}
+
+nav {
+    width: 100%;
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+}
+
+.nav-item a {
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+.nav-item:hover {
+    border: 2px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+}
+
+.nav-item:hover a {
+  color: white;
+}
+
+
+h2 {
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+font-weight: 500;
+    padding: 0px;
+    margin: 0px;
+}
+
+.imageSection {
+width: auto;
+height: 40rem;
+background-image: url("../images/background.jpg");
+background-repeat: no-repeat;
+background-position: right;
+background-color: black;
+background-blend-mode: lighten;
+margin-block: 5rem;
+}
+
+.vocalImageSection {
+width: auto;
+height: 40rem;
+background-image: url("../images/vocals.jpg");
+background-repeat: no-repeat;
+background-position: right;
+background-color: black;
+background-blend-mode: lighten;
+margin-block: 5rem;
+}
+
+.guitarImageSection {
+width: auto;
+height: 40rem;
+background-image: url("../images/guitar.jpg");
+background-repeat: no-repeat;
+background-position: right;
+background-color: black;
+background-blend-mode: lighten;
+margin-block: 5rem;
+}
+
+.bassImageSection {
+width: auto;
+height: 40rem;
+background-image: url("../images/bass2.jpg");
+background-repeat: no-repeat;
+background-position: right;
+background-color: black;
+background-blend-mode: lighten;
+margin-block: 5rem;
+}
+
+.pianoImageSection {
+width: auto;
+height: 40rem;
+background-image: url("../images/piano2.jpg");
+background-repeat: no-repeat;
+background-position: right;
+background-color: black;
+background-blend-mode: lighten;
+margin-block: 5rem;
+}
+
+.drumsImageSection {
+width: auto;
+height: 40rem;
+background-image: url("../images/drums.jpg");
+background-repeat: no-repeat;
+background-position: right;
+background-color: black;
+background-blend-mode: lighten;
+margin-block: 5rem;
+}
+
+.promotional {
+    width: 40rem;
+    height: auto;
+    padding-inline-start: 5px;
+    margin-inline-start: 10rem;
+    padding-block: 26px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.9),rgba(0,0,0,0.9),rgba(0,0,0,0.9), rgba(0,0,0,0.9), rgba(0,0,0,0.7),rgba(0,0,0,0.7), rgba(0,0,0,0));
+}
+.promotionalTitle {
+    font-weight: 900;
+    font-size: 65px;
+    width: 50rem;
+    padding: 0px;
+    margin: 0px;
+    color: #FFFFFF;
+}
+.promotionalHeading {
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.promotionalText {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.steps {
+    width: auto;
+    height: 10rem;
+}
+
+.stepsRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.stepsTitle
+{
+    font-weight: 900;
+    font-size: 50px;
+    padding-inline: 3rem;
+    margin: 0px;
+}
+
+.stepsNumber
+{
+    font-weight: 900;
+    font-size: 80px;
+    padding: 0px;
+    margin: 0px;
+    color: red;
+}
+
+.stepsText
+{
+    font-weight: 700;
+    padding-block: 30px;
+    padding-inline-start: 0px;
+    padding-inline-end: 10px;
+    margin: 0px;
+}
+
+.instrumentContainer {
+    margin-block: 10rem;
+    background-color: black;
+    height: 20rem;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width: 50rem;
+    margin-inline: 300px;
+    margin-block: 20px;
+}
+
+button {
+    height: 4rem;
+    width: 8rem;
+    font-size: 20px;
+    border: 1.5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.buttonTitle {
+font-size: 3rem;
+}
+
+button:hover {
+    color: grey;
+    border-color: grey;
+}
+
+.neonButton {
+    color: lime;
+    font-size: 2rem;
+    display: inline-block;   
+    border: .125em;
+    padding: .25em 1em;
+    text-decoration: none;
+    border-style: solid;
+    border-color: currentColor;
+    border-radius: 0.25em;
+    text-shadow: 0 0 0.25em rgba(255, 251, 251, 0.8), 0 0 0.45em lime;
+    margin-inline: 1rem;
+    margin-block: 1rem;
+    box-shadow: 0 0 1em currentColor, inset 0 0 1em currentColor;
+    position: relative;
+    transition: background-color 100ms linear;
+}
+
+.neonButton::before {
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    background: currentColor;
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+    filter: blur(1.2em);
+    opacity: 0.7;
+    
+}
+
+.neonButton::after {
+content: '';
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+box-shadow: 0 0 2em 1em limegreen;
+opacity: 0;
+transition: opacity 100ms linear;
+}
+
+.neonButton:hover,
+.neonButton:focus {
+    color: black;
+    background-color: lime;
+    box-shadow: none;
+    text-shadow: none;
+
+}
+
+.neonButton:hover::after,
+.neonButton:focus::after {
+opacity: 1;
+}
+
+.neonButton:hover::before,
+.neonButton:focus::before {
+opacity: 1;
+}
+
+.neonButton2 {
+    color: magenta;
+    font-size: 2rem;
+    display: inline-block;   
+    border: .125em;
+    padding: .25em 1em;
+    text-decoration: none;
+    border-style: solid;
+    border-color: currentColor;
+    border-radius: 0.25em;
+    text-shadow: 0 0 0.25em rgba(255, 251, 251, 0.8), 0 0 0.45em magenta;
+    margin-inline: 1rem;
+    margin-block: 1rem;
+    box-shadow: 0 0 1em currentColor, inset 0 0 1em currentColor;
+    position: relative;
+    transition: background-color 100ms linear;
+}
+
+.neonButton2::before {
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    background: currentColor;
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+    filter: blur(1.2em);
+    opacity: 0.7;
+    
+}
+
+.neonButton2::after {
+content: '';
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+box-shadow: 0 0 2em 1em magenta;
+opacity: 0;
+transition: opacity 100ms linear;
+}
+
+.neonButton2:hover,
+.neonButton2:focus {
+    color: black;
+    background-color: magenta;
+    box-shadow: none;
+    text-shadow: none;
+
+}
+
+.neonButton2:hover::after,
+.neonButton2:focus::after {
+opacity: 1;
+}
+
+.neonButton2:hover::before,
+.neonButton2:focus::before {
+opacity: 1;
+}
+
+
+.neonButton3 {
+    color: yellow;
+    font-size: 2rem;
+    display: inline-block;   
+    border: .125em;
+    padding: .25em 1em;
+    text-decoration: none;
+    border-style: solid;
+    border-color: currentColor;
+    border-radius: 0.25em;
+    text-shadow: 0 0 0.25em rgba(255, 251, 251, 0.8), 0 0 0.45em yellow;
+    margin-inline: 1rem;
+    margin-block: 1rem;
+    box-shadow: 0 0 1em currentColor, inset 0 0 1em currentColor;
+    position: relative;
+    transition: background-color 100ms linear;
+}
+
+.neonButton3::before {
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    background: currentColor;
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+    filter: blur(1.2em);
+    opacity: 0.7;
+    
+}
+
+.neonButton3::after {
+content: '';
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+box-shadow: 0 0 2em 1em yellow;
+opacity: 0;
+transition: opacity 100ms linear;
+}
+
+.neonButton3:hover,
+.neonButton3:focus {
+    color: black;
+    background-color: yellow;
+    box-shadow: none;
+    text-shadow: none;
+
+}
+
+.neonButton3:hover::after,
+.neonButton3:focus::after {
+opacity: 1;
+}
+
+.neonButton3:hover::before,
+.neonButton3:focus::before {
+opacity: 1;
+}
+
+.neonButton3 {
+    color: yellow;
+    font-size: 2rem;
+    display: inline-block;   
+    border: .125em;
+    padding: .25em 1em;
+    text-decoration: none;
+    border-style: solid;
+    border-color: currentColor;
+    border-radius: 0.25em;
+    text-shadow: 0 0 0.25em rgba(255, 251, 251, 0.8), 0 0 0.45em yellow;
+    margin-inline: 1rem;
+    margin-block: 1rem;
+    box-shadow: 0 0 1em currentColor, inset 0 0 1em currentColor;
+    position: relative;
+    transition: background-color 100ms linear;
+}
+
+.neonButton3::before {
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    background: currentColor;
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+    filter: blur(1.2em);
+    opacity: 0.7;
+    
+}
+
+.neonButton3::after {
+content: '';
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+box-shadow: 0 0 2em 1em yellow;
+opacity: 0;
+transition: opacity 100ms linear;
+}
+
+.neonButton3:hover,
+.neonButton3:focus {
+    color: black;
+    background-color: yellow;
+    box-shadow: none;
+    text-shadow: none;
+
+}
+
+.neonButton3:hover::after,
+.neonButton3:focus::after {
+opacity: 1;
+}
+
+.neonButton3:hover::before,
+.neonButton3:focus::before {
+opacity: 1;
+}
+
+.neonButton4 {
+    color: red;
+    font-size: 2rem;
+    display: inline-block;   
+    border: .125em;
+    padding: .25em 1em;
+    text-decoration: none;
+    border-style: solid;
+    border-color: currentColor;
+    border-radius: 0.25em;
+    text-shadow: 0 0 0.25em rgba(255, 251, 251, 0.8), 0 0 0.45em red;
+    margin-inline: 1rem;
+    margin-block: 1rem;
+    box-shadow: 0 0 1em currentColor, inset 0 0 1em currentColor;
+    position: relative;
+    transition: background-color 100ms linear;
+}
+
+.neonButton4::before {
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    background: currentColor;
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+    filter: blur(1.2em);
+    opacity: 0.7;
+    
+}
+
+.neonButton4::after {
+content: '';
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+box-shadow: 0 0 2em 1em red;
+opacity: 0;
+transition: opacity 100ms linear;
+}
+
+.neonButton4:hover,
+.neonButton4:focus {
+    color: black;
+    background-color: red;
+    box-shadow: none;
+    text-shadow: none;
+
+}
+
+.neonButton4:hover::after,
+.neonButton4:focus::after {
+opacity: 1;
+}
+
+.neonButton4:hover::before,
+.neonButton4:focus::before {
+opacity: 1;
+}
+
+.neonButton5 {
+    color: rgb(255, 174, 0);
+    font-size: 2rem;
+    display: inline-block;   
+    border: .125em;
+    padding: .25em 1em;
+    text-decoration: none;
+    border-style: solid;
+    border-color: currentColor;
+    border-radius: 0.25em;
+    text-shadow: 0 0 0.25em rgba(255, 251, 251, 0.8), 0 0 0.45em rgb(255, 174, 0);
+    margin-inline: 1rem;
+    margin-block: 1rem;
+    box-shadow: 0 0 1em currentColor, inset 0 0 1em currentColor;
+    position: relative;
+    transition: background-color 100ms linear;
+}
+
+.neonButton5::before {
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    background: currentColor;
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+    filter: blur(1.2em);
+    opacity: 0.7;
+    
+}
+
+.neonButton5::after {
+content: '';
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+box-shadow: 0 0 2em 1em rgb(255, 174, 0);
+opacity: 0;
+transition: opacity 100ms linear;
+}
+
+.neonButton5:hover,
+.neonButton5:focus {
+    color: black;
+    background-color: rgb(255, 174, 0);
+    box-shadow: none;
+    text-shadow: none;
+
+}
+
+.neonButton5:hover::after,
+.neonButton5:focus::after {
+opacity: 1;
+}
+
+.neonButton5:hover::before,
+.neonButton5:focus::before {
+opacity: 1;
+}
+
+
+.container {
+    width: auto;
+    height: 30rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/band.jpg");
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.containerHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tagline {
+    color: white;
+    margin-block-start: 15px;
+    margin-block-end: 5px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+h3 {
+    color: white;
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.containerBubbles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-block-start: 10px;
+}
+
+.bubble {
+    background: white;
+    width: 200px;
+    height: 300px;
+    border: 1.5px;
+    border-color: black;
+    box-shadow: 0 0 1em currentColor, inset 0 0 1em currentColor;
+    border-style: solid;
+    border-radius: 10px;
+    margin-inline: 10px;
+}
+
+.teacherImage {
+    width: 100px;
+    padding-block: 1rem;
+    padding-inline: 3rem;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%
+}
+.name {
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.testimonial {
+    font-weight: 400;
+    padding-inline: 10px;
+    padding-block-end: 10px;
+    margin: 0px;
+    text-align: center;
+}
